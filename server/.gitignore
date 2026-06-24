@@ -1,0 +1,13 @@
+# Server dependencies
+node_modules/
+
+# Local environment variables
+.env
+.env.local
+
+# Server log files
+server_log.txt
+*.log
+
+# Uploads directory (if local uploads are used instead of Cloudinary, we ignore them to prevent committing user uploads)
+uploads/
